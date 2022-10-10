@@ -4,16 +4,17 @@
     {
         String word = "";
         
-        Console.WriteLine("Please input word");
+        Console.WriteLine("Please input sequence, ex: 12345 or qwerty");
         word = Console.ReadLine();
 
         if (word != null)
         {
-            char[] revertedWord = new char[100];
+            char[] revertedWord;
             revertedWord =  ispalidrome(word);
-            string t = new string(revertedWord);
-            Console.WriteLine(revertedWord);
-            Console.WriteLine("(" + word + ")" + " => " + t);
+            string wordSplit = String.Join(",", word.ToCharArray());
+            string revertSplit = String.Join(",", revertedWord);
+            
+            Console.WriteLine("(" + String.Join(",", wordSplit) + ")" + " => (" +  String.Join(",", revertSplit) + ")");
         }
     }
 
@@ -27,9 +28,6 @@
         {
             revertedResult[i] = wordCharacters[(wordCharacters.Length - 1) - i];
         }
-
-        Console.WriteLine(revertedResult);
-
         return revertedResult;
     }
 }
