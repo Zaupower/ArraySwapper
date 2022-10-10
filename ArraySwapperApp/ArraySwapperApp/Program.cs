@@ -2,48 +2,34 @@
 {
     static void Main(string[] args)
     {
-        string wordInput = userInputString();
+        String word = "";
         
-        Console.WriteLine("Word readed: " + wordInput);
-        
-        reverseString(wordInput);
-    }
+        Console.WriteLine("Please input word");
+        word = Console.ReadLine();
 
-    public static String userInputString()
-    {
-        int arraySizeCounter = 0;
-        String readInput = "";
-        String tmpRead = "";
-        Console.WriteLine("Input characters to swap one by one");
-        Console.WriteLine("to start swapping input: swap");
-
-        while (true)
+        if (word != null)
         {
-            readInput = Console.ReadLine();
-            if (readInput == "swap" && tmpRead.Length > 0)
-            {
-                return tmpRead;
-            }
-            tmpRead += readInput;
+            char[] revertedWord = new char[100];
+            revertedWord =  ispalidrome(word);
+            string t = new string(revertedWord);
+            Console.WriteLine(revertedWord);
+            Console.WriteLine("(" + word + ")" + " => " + t);
         }
     }
-    
-    public static bool reverseString(String word)
+
+    public static char[] ispalidrome(string word)
     {
         char[] wordCharacters = word.ToCharArray();
-        char[] resultReverse = new Char[wordCharacters.Length];
-        Console.WriteLine(wordCharacters.Length/2 );
-        for (int i = 0; i < wordCharacters.Length/2 ; i++)
+        char[] revertedResult = new char[wordCharacters.Length];
+        string reverString = "";
+        
+        for (int i = 0; i < wordCharacters.Length ; i++)
         {
-            /*
-            if (wordCharacters[i] != wordCharacters[ (wordCharacters.Length -1 ) - i] )
-            {
-                return false;
-            }*/
-
-            resultReverse[i] = wordCharacters[(wordCharacters.Length - 1) - i];
+            revertedResult[i] = wordCharacters[(wordCharacters.Length - 1) - i];
         }
-        Console.WriteLine(resultReverse);
-        return true;
+
+        Console.WriteLine(revertedResult);
+
+        return revertedResult;
     }
 }
