@@ -1,0 +1,15 @@
+/home/pfmq052/Documents/github/QABootcamp/Task2/Ex2/ArraySwapper/ArraySwapperApp/ArraySwapperApp/bin/Debug/net6.0/ArraySwapperApp
+/home/pfmq052/Documents/github/QABootcamp/Task2/Ex2/ArraySwapper/ArraySwapperApp/ArraySwapperApp/bin/Debug/net6.0/ArraySwapperApp.deps.json
+/home/pfmq052/Documents/github/QABootcamp/Task2/Ex2/ArraySwapper/ArraySwapperApp/ArraySwapperApp/bin/Debug/net6.0/ArraySwapperApp.runtimeconfig.json
+/home/pfmq052/Documents/github/QABootcamp/Task2/Ex2/ArraySwapper/ArraySwapperApp/ArraySwapperApp/bin/Debug/net6.0/ArraySwapperApp.dll
+/home/pfmq052/Documents/github/QABootcamp/Task2/Ex2/ArraySwapper/ArraySwapperApp/ArraySwapperApp/bin/Debug/net6.0/ArraySwapperApp.pdb
+/home/pfmq052/Documents/github/QABootcamp/Task2/Ex2/ArraySwapper/ArraySwapperApp/ArraySwapperApp/obj/Debug/net6.0/ArraySwapperApp.csproj.AssemblyReference.cache
+/home/pfmq052/Documents/github/QABootcamp/Task2/Ex2/ArraySwapper/ArraySwapperApp/ArraySwapperApp/obj/Debug/net6.0/ArraySwapperApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/pfmq052/Documents/github/QABootcamp/Task2/Ex2/ArraySwapper/ArraySwapperApp/ArraySwapperApp/obj/Debug/net6.0/ArraySwapperApp.AssemblyInfoInputs.cache
+/home/pfmq052/Documents/github/QABootcamp/Task2/Ex2/ArraySwapper/ArraySwapperApp/ArraySwapperApp/obj/Debug/net6.0/ArraySwapperApp.AssemblyInfo.cs
+/home/pfmq052/Documents/github/QABootcamp/Task2/Ex2/ArraySwapper/ArraySwapperApp/ArraySwapperApp/obj/Debug/net6.0/ArraySwapperApp.csproj.CoreCompileInputs.cache
+/home/pfmq052/Documents/github/QABootcamp/Task2/Ex2/ArraySwapper/ArraySwapperApp/ArraySwapperApp/obj/Debug/net6.0/ArraySwapperApp.dll
+/home/pfmq052/Documents/github/QABootcamp/Task2/Ex2/ArraySwapper/ArraySwapperApp/ArraySwapperApp/obj/Debug/net6.0/refint/ArraySwapperApp.dll
+/home/pfmq052/Documents/github/QABootcamp/Task2/Ex2/ArraySwapper/ArraySwapperApp/ArraySwapperApp/obj/Debug/net6.0/ArraySwapperApp.pdb
+/home/pfmq052/Documents/github/QABootcamp/Task2/Ex2/ArraySwapper/ArraySwapperApp/ArraySwapperApp/obj/Debug/net6.0/ArraySwapperApp.genruntimeconfig.cache
+/home/pfmq052/Documents/github/QABootcamp/Task2/Ex2/ArraySwapper/ArraySwapperApp/ArraySwapperApp/obj/Debug/net6.0/ref/ArraySwapperApp.dll
